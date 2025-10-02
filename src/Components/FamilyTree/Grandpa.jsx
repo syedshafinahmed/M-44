@@ -3,12 +3,14 @@ import Dad from './Dad';
 import Uncle from './Uncle';
 import Aunt from './Aunt';
 
-const Grandpa = () => {
+const Grandpa = ({ asset }) => {
     return (
         <div>
-            <h3>Grandpa</h3>
+            <div>
+                <h3>Grandpa</h3>
+            </div>
             <section className='flex justify-center gap-x-5'>
-                <Dad></Dad>
+                <Dad asset={asset}></Dad>
                 <Uncle></Uncle>
                 <Aunt></Aunt>
             </section>

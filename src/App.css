@@ -6,6 +6,9 @@
 }
 @import "tailwindcss";
 
+div {
+  padding: 15px;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
